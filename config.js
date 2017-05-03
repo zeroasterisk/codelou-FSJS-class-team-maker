@@ -29,7 +29,7 @@ module.exports = {
       ]
     },
     {
-      name: '@codelou with cj shauvonm',
+      name: '@ihub with cj shauvonm',
       students: [
         'Bowman	Robert	rjbowman8@gmail.com',
         'Bushau	Jeremiah	exjerlock@hotmail.com',
