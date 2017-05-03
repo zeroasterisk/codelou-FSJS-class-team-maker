@@ -11,6 +11,12 @@
  * it should output information to the the console...
  * BUT I am going to run and assign teams myself
  * (feel free to run this for fun)
+ *
+ * ----
+ *
+ * In this variation, I'm not using packages, creating tools myself
+ * - shuffle to randomize the array of students
+ * - chunk to split the array into chunks/teams (worse than index.js because last team is not even)
  */
 var config = require('./config.js');
 
@@ -47,7 +53,7 @@ Array.prototype.shuffle = function(){
   return this;
 };
 
-// for our array - split it into teams of 5
+// for each class - split students into teams
 config.classes.forEach(function(classConfig, classIndex) {
   console.log("------------------------------");
   console.log("class #" + (classIndex + 1) + ' '  + classConfig.name);
